@@ -1,0 +1,146 @@
+Data Types
+1. Declare and Print int, float, and char
+step1: Declare int, float, and char variables.
+step2: Initialize them with values.
+step3: Print them to the console.
+
+2. Read an Integer, Convert to Float, and Print Both
+step1: Take an integer input from the user.
+step2: Convert it to a float.
+step3: Print both integer and float values.
+
+
+3. Print Size of Various Data Types
+step1: Use sizeof() to get the size of int, float, double, char, short, and long.
+step2: Print the sizes.
+
+4. Bitwise AND, OR, XOR on Two Unsigned Integers
+step1: Take two unsigned integers as input.
+step2: Perform bitwise AND, OR, and XOR operations.
+step3: Print the results.
+
+5. Basic Arithmetic Operations
+step1: Take two integers as input.
+step2: Calculate their sum, difference, product, and quotient.
+step3: Print the results.
+
+6. Print ASCII Value of a Character
+step1: Take a character as input.
+step2: Print its ASCII value using type conversion.
+
+7. Print Floating Point Number with Two Decimal Places
+step1: Take a floating-point number as input.
+step2: Print it with two decimal places using printf() formatting.
+
+8. Swap Two Integers Without Third Variable
+step1: Take two integers as input.
+step2: Swap them using arithmetic operations (a = a + b; b = a - b; a = a - b).
+step3: Print swapped values.
+
+9.Check Even or Odd Number
+step1: Take an integer as input.
+step2: Use if-else to check number % 2 == 0 for even, else odd.
+step3: Print the result.
+
+
+Operators
+1. Swap Two Numbers Without Temporary Variable
+step1: Take two integers as input.
+step2: Swap them using arithmetic operations (a = a + b; b = a - b; a = a - b).
+step3: Print swapped values.
+
+2. Check Even or Odd Using Bitwise Operators
+step1: Take an integer input.
+step2: Use number & 1 == 0 to check even or odd.
+step3: Print the result.
+
+3. Perform Bitwise AND, OR, XOR
+step1: Take two integers as input.
+step2: Apply &, |, and ^ operators.
+step3: Print results.
+
+4. Count Set Bits (1s) in Binary Representation
+step1: Take an integer input.
+step2: Use a loop to count 1s in its binary form using n = n & (n - 1).
+step3: Print the count.
+
+5. Check If a Number Is a Power of Two
+step1: Take an integer input.
+step2: Check n & (n - 1) == 0 and n > 0.
+step3: Print if it’s a power of two.
+
+6. Check Positive, Negative, or Zero
+step1: Take a number as input.
+step2: Use the conditional operator ? : to check its sign.
+step3:  Print the result.
+
+7. Check If a Number Is a Strong Number
+step1: Take an integer input.
+step2: Find the sum of factorials of its digits.
+step3: Compare it with the original number.
+step4: Print if it’s strong or not.
+
+8. Check If a Number Is a Palindrome
+step1: Take an integer input.
+step2: Reverse the number and compare it with the original.
+step3: Print if it’s a palindrome.
+
+9. Check If a Number Is Prime
+step1: Take an integer input.
+step2: Check divisibility from 2 to sqrt(n).
+step3: If divisible by any, it’s not prime; otherwise, it is prime.
+
+10. Check If a Year Is a Leap Year
+step1: Take a year as input.
+step2: Check year % 4 == 0 && (year % 100 != 0 || year % 400 == 0).
+step3: Print the result.
+
+
+Arrays
+1. Access an Array Element
+step1: Declare an array.
+step2: Access an element using index notation (arr[index]).
+step3: Print the value.
+
+2. Change the Value of a Specific Element
+step1: Declare an array.
+step2: Modify an element at a specific index.
+step3: Print the updated array.
+
+3. Loop Through an Array
+step1: Declare an array.
+step2: Use a loop to iterate and print elements.
+
+4. Create an Array and Add Elements Later
+step1: Declare an array of a specific size.
+step2: Use a loop to take user input and fill the array.
+
+5. Print the Size of the Array
+step1: Declare an array.
+step2: Use sizeof(array) / sizeof(array[0]) to find the number of elements.
+step3: Print the size.
+
+6. Find Length of an Array
+step1: Declare an array.
+step2: Use sizeof(array) / sizeof(array[0]) to find the number of elements.
+step3: Print the size.
+
+7. Calculate the Average of Different Ages
+step1: Declare an array with ages.
+step2: Sum all elements and divide by the total count.
+step3: Print the average.
+
+8. Find the Lowest Age
+step1: Declare an array.
+step2: Use a loop to find the smallest value.
+step3: Print the lowest age.
+
+9. Reverse the Elements of an Array
+step1: Declare an array.
+step2: Swap elements from start to end iteratively.
+step3: Print the reversed array.
+
+10. Find the Sum of All Elements in an Array
+step1: Declare an array.
+step2: Use a loop to sum up all elements.
+step3: Print the total sum.
